@@ -2,6 +2,7 @@
 Bu depo, dotnet odaklı yazılım geliştirme ekosistemi içerisindeki son teknolojileri kullanarak Mikroservislerin tasarımı, geliştirilmesi ve altyapılarının oluşturulması konularında kapsamlı bir eğitim içeriği sunmaktadır. 
 
 [Kurs Öncesi Gereksinimler](gereksinimler/README.md)
+
 [Modül 1 - Temiz Mimari: Tasarım Desenleri, Uygulama ve İlkeler](modul-1/README.md)
 
 
