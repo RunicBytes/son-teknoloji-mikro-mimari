@@ -3,7 +3,7 @@ Bu depo, dotnet odaklı yazılım geliştirme ekosistemi içerisindeki son tekno
 
 [Kurs Öncesi Gereksinimler](gereksinimler/README.md)
 
-[Modül 1 - Temiz Mimari: Tasarım Desenleri, Uygulama ve İlkeler](modul-1/README.md)
+[Modül 1 - Temiz Mimari: Tasarım Desenleri, Uygulama ve İlkeler](modul-1)
 
 
 [Herhangi bir sorunuz veya yardıma ihtiyacınız olduğunda lütfen bize ulaşmaktan çekinmeyin](mailto:training@runicbytes.com?subject=Son%20Teknolojiler%20ile%20Mikroservisler%20ve%20Mimari%20Altyapı%20Eğitimi%20Hakkında).
