@@ -8,7 +8,7 @@ Bu eğitim modülünü tamamlayabilmek için aşağıdaki araçların ve yazıl�
 
 - [.NET Core SDK](https://dotnet.microsoft.com/download/dotnet-core): .NET Core SDK, modül içerisindeki örnekleri çalıştırabilmek için gereklidir. En son sürümünü indirip yüklemenizi öneririz.
 
-- [Git](https://git-scm.com/): Eğitim boyunca yapacağımız proje yönetimi ve versiyon kontrolü için Git'i kullanacağız. Bilgisayarınıza Git'i kurarak eğitimden maksimum verim alabilirsiniz.
+- [Git](https://git-scm.com/): Eğitim boyunca yapacağımız proje yönetimi ve sürüm kontrolü için Git'i kullanacağız. Bilgisayarınıza Git'i kurarak eğitimden maksimum verim alabilirsiniz.
 
 - [GitHub hesabı](https://github.com/): Ödevlerinizi ve projelerinizi saklayabilmek için GitHub hesabı oluşturmanızı tavsiye ederiz.
 
