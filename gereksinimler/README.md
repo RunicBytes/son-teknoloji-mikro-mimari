@@ -32,4 +32,4 @@ Bu eğitim modülünü tamamlayabilmek için aşağıdaki araçların ve yazıl�
 
 7. Hesabınızı oluşturduktan sonra, Git ve GitHub entegrasyonunu sağlamak için GitHub hesabınızı bilgisayarınıza tanıtın. Bu adım, Git ve GitHub kullanımını kolaylaştıracaktır.
 
-Yukarıdaki adımları tamamladıktan sonra, kurs içeriğini daha etkin bir şekilde takip edebilir ve örnek uygulamaları başarıyla gerçekleştirebilirsiniz. [Herhangi bir sorunuz veya yardıma ihtiyacınız olduğunda lütfen bize ulaşmaktan çekinmeyin](mailto:training@runicbytes.com?subject=[Son Teknolojiler ile Mikroservisler ve Mimari Altyapı Eğitimi Hakkında]).
+Yukarıdaki adımları tamamladıktan sonra, kurs içeriğini daha etkin bir şekilde takip edebilir ve örnek uygulamaları başarıyla gerçekleştirebilirsiniz. [Herhangi bir sorunuz veya yardıma ihtiyacınız olduğunda lütfen bize ulaşmaktan çekinmeyin](mailto:training@runicbytes.com?subject=Son Teknolojiler ile Mikroservisler ve Mimari Altyapı Eğitimi Hakkında).
