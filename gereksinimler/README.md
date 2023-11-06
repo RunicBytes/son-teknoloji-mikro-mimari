@@ -16,6 +16,9 @@ Bu eğitim modülünü tamamlayabilmek için aşağıdaki araçların ve yazıl�
 
 - [DBeaver](https://dbeaver.io/): Veritabanı yönetimi için kullanılacak olan DBeaver'ı indirip yüklemenizi tavsiye ederiz.
 
+- [Postman](https://www.postman.com/) veya [Insomnia](https://insomnia.rest/download): API geliştirme ve test araçları olarak Postman veya Insomnia'nın kurulu olması gerekmektedir.
+
+
 ## Kurulum Adımları
 
 1. [Visual Studio](https://visualstudio.microsoft.com/tr/downloads/) veya [Visual Studio Code](https://code.visualstudio.com/) 'un en son sürümünü indirin ve bilgisayarınıza yükleyin.
