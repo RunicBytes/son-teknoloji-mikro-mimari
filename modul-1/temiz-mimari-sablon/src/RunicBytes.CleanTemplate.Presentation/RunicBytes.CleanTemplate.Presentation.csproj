@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>6b6e0e70-69e1-4382-92ea-311b7b5dcc1c</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..</DockerfileContext>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+		<CodeAnalysisRuleSet>$(SolutionDir)\rules.ruleset</CodeAnalysisRuleSet>
+		<Features>IOperation</Features>
+		<NoWarn></NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<AdditionalFiles Include="$(SolutionDir)\stylecop.json" Link="stylecop.json" />
+		<AdditionalFiles Include="$(SolutionDir)\rules.ruleset" Link="rules.ruleset" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\RunicBytes.CleanTemplate.Application\RunicBytes.CleanTemplate.Application.csproj" />
+	  <ProjectReference Include="..\RunicBytes.CleanTemplate.Common\RunicBytes.CleanTemplate.Common.csproj" />
+	  <ProjectReference Include="..\RunicBytes.CleanTemplate.Domain\RunicBytes.CleanTemplate.Domain.csproj" />
+	  <ProjectReference Include="..\RunicBytes.CleanTemplate.Infrastructure\RunicBytes.CleanTemplate.Infrastructure.csproj" />
+	  <ProjectReference Include="..\RunicBytes.CleanTemplate.Persistence\RunicBytes.CleanTemplate.Persistence.csproj" />
+	</ItemGroup>
+	
+</Project>

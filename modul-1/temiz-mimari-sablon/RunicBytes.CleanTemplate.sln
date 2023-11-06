@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FCF4E22-18DA-48AA-8383-DAE29A164EA1}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies.dgml = Dependencies.dgml
+		README.md = README.md
+		rules.ruleset = rules.ruleset
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunicBytes.CleanTemplate.Common", "src\RunicBytes.CleanTemplate.Common\RunicBytes.CleanTemplate.Common.csproj", "{04CCF0C4-E897-4025-927A-80E0D68AB2CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{649A886C-17C8-4BA7-AA01-33B1AD44799A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunicBytes.CleanTemplate.Domain", "src\RunicBytes.CleanTemplate.Domain\RunicBytes.CleanTemplate.Domain.csproj", "{28B534F7-AA45-48DD-B094-C429C33C989C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunicBytes.CleanTemplate.Persistence", "src\RunicBytes.CleanTemplate.Persistence\RunicBytes.CleanTemplate.Persistence.csproj", "{9E777725-8D74-4E76-B8E3-1E8B938CC020}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunicBytes.CleanTemplate.Application", "src\RunicBytes.CleanTemplate.Application\RunicBytes.CleanTemplate.Application.csproj", "{EA24A971-641B-47BA-A65F-B9FFF43C87C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunicBytes.CleanTemplate.Infrastructure", "src\RunicBytes.CleanTemplate.Infrastructure\RunicBytes.CleanTemplate.Infrastructure.csproj", "{DC79757E-C1EA-40F3-A97E-FFF20D82E1CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunicBytes.CleanTemplate.Specification", "tests\RunicBytes.CleanTemplate.Specification\RunicBytes.CleanTemplate.Specification.csproj", "{5C645399-427B-4FBA-92C2-9AE810A8E6BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunicBytes.CleanTemplate.Presentation", "src\RunicBytes.CleanTemplate.Presentation\RunicBytes.CleanTemplate.Presentation.csproj", "{CC76FC74-F44F-4DF8-9BBA-2C9F2CC8A2A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EAF1428C-2FB6-4ADD-A72F-56AF5ABD92D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04CCF0C4-E897-4025-927A-80E0D68AB2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CCF0C4-E897-4025-927A-80E0D68AB2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CCF0C4-E897-4025-927A-80E0D68AB2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CCF0C4-E897-4025-927A-80E0D68AB2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B534F7-AA45-48DD-B094-C429C33C989C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B534F7-AA45-48DD-B094-C429C33C989C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B534F7-AA45-48DD-B094-C429C33C989C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B534F7-AA45-48DD-B094-C429C33C989C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E777725-8D74-4E76-B8E3-1E8B938CC020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E777725-8D74-4E76-B8E3-1E8B938CC020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E777725-8D74-4E76-B8E3-1E8B938CC020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E777725-8D74-4E76-B8E3-1E8B938CC020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA24A971-641B-47BA-A65F-B9FFF43C87C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA24A971-641B-47BA-A65F-B9FFF43C87C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA24A971-641B-47BA-A65F-B9FFF43C87C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA24A971-641B-47BA-A65F-B9FFF43C87C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC79757E-C1EA-40F3-A97E-FFF20D82E1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC79757E-C1EA-40F3-A97E-FFF20D82E1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC79757E-C1EA-40F3-A97E-FFF20D82E1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC79757E-C1EA-40F3-A97E-FFF20D82E1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C645399-427B-4FBA-92C2-9AE810A8E6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C645399-427B-4FBA-92C2-9AE810A8E6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C645399-427B-4FBA-92C2-9AE810A8E6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C645399-427B-4FBA-92C2-9AE810A8E6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC76FC74-F44F-4DF8-9BBA-2C9F2CC8A2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC76FC74-F44F-4DF8-9BBA-2C9F2CC8A2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC76FC74-F44F-4DF8-9BBA-2C9F2CC8A2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC76FC74-F44F-4DF8-9BBA-2C9F2CC8A2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04CCF0C4-E897-4025-927A-80E0D68AB2CB} = {649A886C-17C8-4BA7-AA01-33B1AD44799A}
+		{28B534F7-AA45-48DD-B094-C429C33C989C} = {649A886C-17C8-4BA7-AA01-33B1AD44799A}
+		{9E777725-8D74-4E76-B8E3-1E8B938CC020} = {649A886C-17C8-4BA7-AA01-33B1AD44799A}
+		{EA24A971-641B-47BA-A65F-B9FFF43C87C4} = {649A886C-17C8-4BA7-AA01-33B1AD44799A}
+		{DC79757E-C1EA-40F3-A97E-FFF20D82E1CA} = {649A886C-17C8-4BA7-AA01-33B1AD44799A}
+		{5C645399-427B-4FBA-92C2-9AE810A8E6BC} = {EAF1428C-2FB6-4ADD-A72F-56AF5ABD92D3}
+		{CC76FC74-F44F-4DF8-9BBA-2C9F2CC8A2A6} = {649A886C-17C8-4BA7-AA01-33B1AD44799A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E542CFA-B7CC-420A-9248-3C72CD920A95}
+	EndGlobalSection
+EndGlobal
